@@ -246,6 +246,8 @@ class Translator extends NamespacedItemResolver implements TranslatorContract
         } elseif (is_array($line) && count($line) > 0) {
             return $line;
         }
+
+        return null;
     }
 
     /**
